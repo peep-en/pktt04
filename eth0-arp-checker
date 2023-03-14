@@ -1,0 +1,3 @@
+#!/bin/bash
+
+arp -e | grep eth0
