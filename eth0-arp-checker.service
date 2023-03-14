@@ -1,0 +1,10 @@
+[Unit]
+Description=Check ARP cache for interface eth0
+After=network.target
+
+[Service]
+Type=simple
+ExecStart =/home/peep/pktt04/eth0-arp-checker.sh
+
+[Install]
+WantedBy=multi-user.target
