@@ -1,0 +1,11 @@
+[Unit]
+Discription=
+Requires=eth0-arp-checker.service
+
+[Timer]
+AccuracySec=10ms
+Unit=eth0-arp-checker.service
+OnUnitActiveSec=10s
+
+[Install]
+WantedBy=timers.target
