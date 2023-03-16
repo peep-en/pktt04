@@ -1,5 +1,5 @@
 [Unit]
-Discription=
+Discription=Check ARP cache for interface eth0
 Requires=eth0-arp-checker.service
 
 [Timer]
